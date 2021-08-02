@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-07-31T20:18:16Z" name="Suite" finished-at="2021-07-31T20:19:04Z" duration-ms="48004">
+    <groups>
+    </groups>
+    <test started-at="2021-07-31T20:18:16Z" name="Test" finished-at="2021-07-31T20:18:33Z" duration-ms="16271">
+      <class name="Academy.ContactusTest">
+        <test-method is-config="true" signature="beforeTest()[pri:0, instance:Academy.ContactusTest@201b6b6f]" started-at="2021-07-31T14:18:16Z" name="beforeTest" finished-at="2021-07-31T14:18:26Z" duration-ms="9367" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method signature="basePageNavigation()[pri:0, instance:Academy.ContactusTest@201b6b6f]" started-at="2021-07-31T14:18:26Z" name="basePageNavigation" finished-at="2021-07-31T14:18:32Z" duration-ms="5807" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- basePageNavigation -->
+        <test-method is-config="true" signature="Teardown()[pri:0, instance:Academy.ContactusTest@201b6b6f]" started-at="2021-07-31T14:18:32Z" name="Teardown" finished-at="2021-07-31T14:18:33Z" duration-ms="1090" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Teardown -->
+      </class> <!-- Academy.ContactusTest -->
+    </test> <!-- Test -->
+    <test started-at="2021-07-31T20:18:16Z" name="Test2" finished-at="2021-07-31T20:19:04Z" duration-ms="48004">
+      <class name="Academy.HomePage">
+        <test-method signature="basePageNavigation(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Academy.HomePage@75e91545]" started-at="2021-07-31T14:18:16Z" name="basePageNavigation" data-provider="getData" finished-at="2021-07-31T14:18:35Z" duration-ms="18155" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[anubhavsood0009@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[123123]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Ganda banda]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- basePageNavigation -->
+        <test-method is-config="true" signature="Teardown()[pri:0, instance:Academy.HomePage@75e91545]" started-at="2021-07-31T14:18:35Z" name="Teardown" finished-at="2021-07-31T14:18:35Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Teardown -->
+        <test-method signature="basePageNavigation(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Academy.HomePage@75e91545]" started-at="2021-07-31T14:18:35Z" name="basePageNavigation" data-provider="getData" finished-at="2021-07-31T14:18:49Z" duration-ms="14850" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[anubhavsood0009@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[123123]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Ganda banda]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- basePageNavigation -->
+        <test-method is-config="true" signature="Teardown()[pri:0, instance:Academy.HomePage@75e91545]" started-at="2021-07-31T14:18:49Z" name="Teardown" finished-at="2021-07-31T14:18:49Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Teardown -->
+        <test-method signature="basePageNavigation(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Academy.HomePage@75e91545]" started-at="2021-07-31T14:18:49Z" name="basePageNavigation" data-provider="getData" finished-at="2021-07-31T14:19:04Z" duration-ms="14974" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[anubhavsood0009@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[123123]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Ganda banda]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- basePageNavigation -->
+        <test-method is-config="true" signature="Teardown()[pri:0, instance:Academy.HomePage@75e91545]" started-at="2021-07-31T14:19:04Z" name="Teardown" finished-at="2021-07-31T14:19:04Z" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Teardown -->
+      </class> <!-- Academy.HomePage -->
+    </test> <!-- Test2 -->
+  </suite> <!-- Suite -->
+</testng-results>
