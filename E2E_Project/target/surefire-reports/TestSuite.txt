@@ -1,4 +1,12 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 51.126 s - in TestSuite
+Tests run: 6, Failures: 2, Errors: 0, Skipped: 4, Time elapsed: 8.693 s <<< FAILURE! - in TestSuite
+Academy.HomePage.basePageNavigation[anubhavsood0009@gmail.com, 123123, Ganda banda](1)  Time elapsed: 0.059 s  <<< FAILURE!
+java.io.FileNotFoundException: C:\Users\anubh\git\repository2\E2E_Project\src\main\java\Academy\data.properties (The system cannot find the path specified)
+	at Academy.HomePage.basePageNavigation(HomePage.java:22)
+
+Academy.HomePage.Teardown  Time elapsed: 0.061 s  <<< FAILURE!
+java.lang.NullPointerException
+	at Academy.HomePage.Teardown(HomePage.java:48)
+

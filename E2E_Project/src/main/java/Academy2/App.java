@@ -1,4 +1,4 @@
-package Academy;
+package Academy2;
 
 /**
  * Hello world!

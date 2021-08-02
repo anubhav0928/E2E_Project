@@ -1,29 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results total="4" passed="4" failed="0" skipped="0">
+<testng-results total="3" passed="0" failed="1" skipped="2">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2021-07-31T20:18:16Z" name="Suite" finished-at="2021-07-31T20:19:04Z" duration-ms="48004">
+  <suite started-at="2021-08-02T06:29:08Z" name="Suite" finished-at="2021-08-02T06:29:08Z" duration-ms="133">
     <groups>
     </groups>
-    <test started-at="2021-07-31T20:18:16Z" name="Test" finished-at="2021-07-31T20:18:33Z" duration-ms="16271">
-      <class name="Academy.ContactusTest">
-        <test-method is-config="true" signature="beforeTest()[pri:0, instance:Academy.ContactusTest@201b6b6f]" started-at="2021-07-31T14:18:16Z" name="beforeTest" finished-at="2021-07-31T14:18:26Z" duration-ms="9367" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeTest -->
-        <test-method signature="basePageNavigation()[pri:0, instance:Academy.ContactusTest@201b6b6f]" started-at="2021-07-31T14:18:26Z" name="basePageNavigation" finished-at="2021-07-31T14:18:32Z" duration-ms="5807" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- basePageNavigation -->
-        <test-method is-config="true" signature="Teardown()[pri:0, instance:Academy.ContactusTest@201b6b6f]" started-at="2021-07-31T14:18:32Z" name="Teardown" finished-at="2021-07-31T14:18:33Z" duration-ms="1090" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Teardown -->
-      </class> <!-- Academy.ContactusTest -->
+    <test started-at="2021-08-02T06:29:08Z" name="Test" finished-at="2021-08-02T06:29:08Z" duration-ms="16">
     </test> <!-- Test -->
-    <test started-at="2021-07-31T20:18:16Z" name="Test2" finished-at="2021-07-31T20:19:04Z" duration-ms="48004">
+    <test started-at="2021-08-02T06:29:08Z" name="Test2" finished-at="2021-08-02T06:29:08Z" duration-ms="133">
       <class name="Academy.HomePage">
-        <test-method signature="basePageNavigation(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Academy.HomePage@75e91545]" started-at="2021-07-31T14:18:16Z" name="basePageNavigation" data-provider="getData" finished-at="2021-07-31T14:18:35Z" duration-ms="18155" status="PASS">
+        <test-method signature="basePageNavigation(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Academy.HomePage@e15b7e8]" started-at="2021-08-02T00:29:08Z" name="basePageNavigation" data-provider="getData" finished-at="2021-08-02T00:29:08Z" duration-ms="53" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -41,14 +27,78 @@
               </value>
             </param>
           </params>
+          <exception class="java.io.FileNotFoundException">
+            <message>
+              <![CDATA[C:\Users\anubh\git\repository2\E2E_Project\src\main\java\Academy\data.properties (The system cannot find the path specified)]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.io.FileNotFoundException: C:\Users\anubh\git\repository2\E2E_Project\src\main\java\Academy\data.properties (The system cannot find the path specified)
+	at java.base/java.io.FileInputStream.open0(Native Method)
+	at java.base/java.io.FileInputStream.open(FileInputStream.java:213)
+	at java.base/java.io.FileInputStream.<init>(FileInputStream.java:155)
+	at java.base/java.io.FileInputStream.<init>(FileInputStream.java:110)
+	at Resources2.base.initializeDriver(base.java:22)
+	at Academy.HomePage.basePageNavigation(HomePage.java:22)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:774)
+	at org.testng.TestRunner.run(TestRunner.java:624)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:39)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:393)
+	at org.testng.internal.thread.ThreadUtil$2.call(ThreadUtil.java:64)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:830)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.io.FileNotFoundException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- basePageNavigation -->
-        <test-method is-config="true" signature="Teardown()[pri:0, instance:Academy.HomePage@75e91545]" started-at="2021-07-31T14:18:35Z" name="Teardown" finished-at="2021-07-31T14:18:35Z" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="Teardown()[pri:0, instance:Academy.HomePage@e15b7e8]" started-at="2021-08-02T00:29:08Z" name="Teardown" finished-at="2021-08-02T00:29:08Z" duration-ms="0" status="FAIL">
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+	at Academy.HomePage.Teardown(HomePage.java:48)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:510)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:211)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:703)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:774)
+	at org.testng.TestRunner.run(TestRunner.java:624)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:39)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:393)
+	at org.testng.internal.thread.ThreadUtil$2.call(ThreadUtil.java:64)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:830)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Teardown -->
-        <test-method signature="basePageNavigation(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Academy.HomePage@75e91545]" started-at="2021-07-31T14:18:35Z" name="basePageNavigation" data-provider="getData" finished-at="2021-07-31T14:18:49Z" duration-ms="14850" status="PASS">
+        <test-method signature="basePageNavigation(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Academy.HomePage@e15b7e8]" started-at="2021-08-02T00:29:08Z" name="basePageNavigation" data-provider="getData" finished-at="2021-08-02T00:29:08Z" duration-ms="1" status="SKIP">
           <params>
             <param index="0">
               <value>
@@ -69,11 +119,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- basePageNavigation -->
-        <test-method is-config="true" signature="Teardown()[pri:0, instance:Academy.HomePage@75e91545]" started-at="2021-07-31T14:18:49Z" name="Teardown" finished-at="2021-07-31T14:18:49Z" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="Teardown()[pri:0, instance:Academy.HomePage@e15b7e8]" started-at="2021-08-02T00:29:08Z" name="Teardown" finished-at="2021-08-02T00:29:08Z" duration-ms="0" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Teardown -->
-        <test-method signature="basePageNavigation(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Academy.HomePage@75e91545]" started-at="2021-07-31T14:18:49Z" name="basePageNavigation" data-provider="getData" finished-at="2021-07-31T14:19:04Z" duration-ms="14974" status="PASS">
+        <test-method signature="basePageNavigation(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Academy.HomePage@e15b7e8]" started-at="2021-08-02T00:29:08Z" name="basePageNavigation" data-provider="getData" finished-at="2021-08-02T00:29:08Z" duration-ms="0" status="SKIP">
           <params>
             <param index="0">
               <value>
@@ -94,7 +144,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- basePageNavigation -->
-        <test-method is-config="true" signature="Teardown()[pri:0, instance:Academy.HomePage@75e91545]" started-at="2021-07-31T14:19:04Z" name="Teardown" finished-at="2021-07-31T14:19:04Z" duration-ms="2" status="PASS">
+        <test-method is-config="true" signature="Teardown()[pri:0, instance:Academy.HomePage@e15b7e8]" started-at="2021-08-02T00:29:08Z" name="Teardown" finished-at="2021-08-02T00:29:08Z" duration-ms="0" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Teardown -->

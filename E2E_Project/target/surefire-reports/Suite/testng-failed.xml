@@ -6,15 +6,9 @@
       <class name="Academy.HomePage">
         <methods>
           <include name="Teardown"/>
-          <include name="basePageNavigation" invocation-numbers="1 2"/>
+          <include name="basePageNavigation" invocation-numbers="0"/>
         </methods>
       </class> <!-- Academy.HomePage -->
-      <class name="Academy.ContactusTest">
-        <methods>
-          <include name="beforeTest"/>
-          <include name="Teardown"/>
-        </methods>
-      </class> <!-- Academy.ContactusTest -->
     </classes>
   </test> <!-- Test2(failed) -->
 </suite> <!-- Failed suite [Suite] -->
