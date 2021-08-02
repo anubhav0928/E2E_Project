@@ -34,6 +34,7 @@
 							System.out.println(rs.getString("COUNTRY_ID"));
 							System.out.println(rs.getString("COUNTRY_NAME"));
 							System.out.println(rs.getString("REGION_ID"));
+							System.out.println(rs.getString("COUNTRY_NAME"));
 						}
 						
 		}  
